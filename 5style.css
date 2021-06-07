@@ -1,0 +1,45 @@
+* {
+  color: white;
+}
+
+body {
+  background-color: #1e263b;
+  padding: 50px 200px;
+}
+
+.main {
+  /* display: flex;
+  flex-direction: column; */
+}
+.navbar {
+  background-color: #364363;
+}
+.navbar,
+.body {
+  /* border: 1px solid red; */
+}
+
+.body {
+  display: flex;
+  margin-top: 20px;
+  /* justify-content: space-between; */
+}
+
+.con {
+  background-color: #1e263b;
+  flex: 2;
+}
+
+.con2 {
+  margin: 0 20px;
+}
+
+.con11,
+.con21,
+.con31 {
+  margin-bottom: 20px;
+}
+
+.conChild {
+  background-color: #364363;
+}

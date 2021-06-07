@@ -1,0 +1,76 @@
+
+PSEUDO-CLASS => state of tags
+PSEUDO-ELEMENTS => 
+
+
+#:FIRST-CHILD
+<p>1</p>
+<p>2</p>
+p:first-child{color: red} // 1 will be red
+
+#:LAST-CHILD
+<div>
+  <p>1</p>
+  <p>2</p>
+</div>
+p:first-child{color: red} // 2 will be red
+
+#:ONLY-CHILD
+<p>1</p>
+<div><p>3</p></div>
+p:only-child{color: red} // 3 will be red
+
+#:INVALID
+<input type="email" required>
+input:invalid{color: red} 
+
+#:NTH-CHILD(1)
+p:nth-child(1) {color: red;}
+
+:HOVER
+:FOCUS
+:ACTIVE => onClickHold
+:VISITED
+
+================
+::before
+::after
+::first-letter
+::first-line
+
+
+===============
+  text-decoration: none;
+  text-decoration: overline;  
+text-decoration: line-through;   
+text-decoration: underline;
+
+Text-transform
+  text-transform: uppercase;   
+text-transform: lowercase;   
+text-transform: capitalize;
+
+text-spacing
+  text-indent: 50px;
+  letter-spacing: 3px;  
+  line-height: 0.8;   
+  word-spacing: 10px;  
+  white-space: nowrap;   
+  text-shadow: 2px 2px 5px red;
+
+
+
+========================
+          right bottom radius color => (-) px for opposite 
+  text-shadow: 1px 1px 1px red;
+  box-shadow: 1px 1px 1px red;
+
+=============================
+GRADIENT COLOR
+
+linear-gradient()
+ex: linear-gradient(red, blue, yellow, pink, green ...)
+ex: linear-gradient(to right/left/top/bottom, red, blue, ...)
+ex: linear-gradient(to right bottom, red, blue, ...)
+
+repeating-linear-gradient(red, yellow 10%, green 20%);

@@ -1,0 +1,78 @@
+.main {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  background: rgb(28, 28, 31);
+  padding: 100px;
+}
+
+span {
+  font-size: 40px;
+}
+
+span:nth-child(1) {
+  color: rgb(98, 98, 98);
+  animation: t1 10s infinite alternate step-end;
+}
+span:nth-child(2) {
+  color: rgb(98, 98, 98);
+  animation: t2 10s infinite normal;
+}
+span:nth-child(3) {
+  color: rgb(98, 98, 98);
+  animation: t3 10s infinite normal;
+}
+span:nth-child(4) {
+  color: rgb(98, 98, 98);
+  animation: t4 10s infinite normal;
+}
+span:nth-child(5) {
+  color: rgb(98, 98, 98);
+  animation: t5 10s infinite normal;
+}
+span:nth-child(6) {
+  color: rgb(98, 98, 98);
+  animation: t6 10s infinite normal;
+}
+span:nth-child(7) {
+  color: rgb(98, 98, 98);
+  animation: t7 10s infinite normal;
+}
+span:nth-child(8) {
+  color: rgb(98, 98, 98);
+  animation: t8 10s infinite normal;
+}
+@keyframes t1 {
+  0% {
+    color: white;
+  }
+  10% {
+    color: rgb(98, 98, 98);
+  }
+  80% {
+    color: white;
+  }
+  100% {
+    color: white;
+  }
+}
+
+@keyframes t2 {
+  0% {
+    color: rgb(98, 98, 98);
+  }
+  10% {
+    color: white;
+  }
+  20% {
+    color: rgb(98, 98, 98);
+  }
+  80% {
+    color: white;
+  }
+  100% {
+    color: white;
+  }
+}

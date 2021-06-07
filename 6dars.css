@@ -1,0 +1,41 @@
+tr:first-child {
+  /* color: red; */
+}
+
+tr:last-child {
+  /* color: red; */
+}
+
+tr:nth-child(odd) {
+  color: red;
+}
+
+tr:nth-child(even) {
+  color: blue;
+}
+
+a {
+  /* color: blue; */
+}
+a:visited {
+  /* color: orange; */
+}
+button:active {
+  transform: scale(0.9);
+  color: red;
+}
+
+input:invalid {
+  border: 1px solid red;
+  color: red;
+  outline: none;
+}
+
+h1::first-letter {
+  color: red;
+  font-size: 50px;
+}
+
+p::first-line {
+  color: red;
+}

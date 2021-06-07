@@ -1,0 +1,67 @@
+* {
+  transition: all 1s;
+}
+
+body {
+  padding: 100px;
+}
+
+form {
+  width: 100%;
+  background-color: #f5f1f0;
+  padding-right: 400px;
+  padding-bottom: 50px;
+  font-size: 50px;
+}
+
+.input-wrapper {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+}
+
+label {
+  width: 200px;
+  min-width: 200px;
+  text-align: end;
+  padding-right: 10px;
+}
+
+.wrapper {
+  display: flex;
+  /* box-sizing: border-box; */
+}
+
+.input-left {
+  margin-right: 10px;
+}
+
+/* 600 eng katta mobile */
+/* 900 eng katta tablet */
+
+/* tablet */
+@media (max-width: 900px) {
+  body {
+    padding: 40px;
+  }
+
+  form {
+    padding-bottom: 20px;
+    font-size: 30px;
+  }
+}
+
+/* mobile */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  form {
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+}
